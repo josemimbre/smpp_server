@@ -22,7 +22,8 @@ defmodule SmppServer.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:smppex, "~> 2.0"}
+      {:smppex, "~> 2.0"},
+      {:distillery, "~> 1.5", runtime: false}
     ]
   end
 end
